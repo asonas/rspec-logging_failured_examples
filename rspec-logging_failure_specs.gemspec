@@ -1,11 +1,10 @@
-
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "rspec/logging_failure_specs/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "rspec-logging_failure_specs"
-  spec.version       = Rspec::LoggingFailureSpecs::VERSION
+  spec.version       = RSpec::LoggingFailureSpecs::VERSION
   spec.authors       = ["Yuya Fujiwara"]
   spec.email         = ["hzw1258@gmail.com"]
 

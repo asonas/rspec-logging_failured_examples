@@ -1,6 +1,6 @@
-RSpec.describe Rspec::LoggingFailureSpecs do
+RSpec.describe RSpec::LoggingFailureSpecs do
   it "has a version number" do
-    expect(Rspec::LoggingFailureSpecs::VERSION).not_to be nil
+    expect(RSpec::LoggingFailureSpecs::VERSION).not_to be nil
   end
 
   it "does something useful" do
