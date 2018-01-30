@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "rspec/logging_failure_specs"
+require "rspec/logging_failured_examples"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
